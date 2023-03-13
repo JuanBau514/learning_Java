@@ -1,6 +1,6 @@
 package control;
 import vista.CajasMensaje;
-// primer hola mundo de java }
+// primer hola mundo de java 
 
 public class main {
     public static void main(String[] args) {
