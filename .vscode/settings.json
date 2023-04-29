@@ -1,0 +1,5 @@
+{
+    "java.dependency.showMembers": true,
+    "debug.javascript.autoAttachFilter": "always",
+    "debug.javascript.breakOnConditionalError": true
+}
