@@ -27,7 +27,7 @@ public class PanelMover extends Thread {
             this.panel.repaint();
 
             try {
-                Thread.sleep(100);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

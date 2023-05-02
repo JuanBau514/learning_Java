@@ -159,16 +159,19 @@ public class mainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_boton2ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
-        // TODO add your handling code here:
+        if (this.hilo3.isAlive()) {
+            this.hilo3.resume();
+        } else {
+            this.hilo3.start();
+        }
     }//GEN-LAST:event_boton3ActionPerformed
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // Funcionalidad de movimiento y detención del hilo 1
-       
     }
 
     /**
